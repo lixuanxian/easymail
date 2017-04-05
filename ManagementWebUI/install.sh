@@ -9,7 +9,7 @@ rm ManagementWebUI.tar.gz
 
 cp $CURRENT_DIR/ManagementWebUI/ManagementWebUI-nginx.conf $MANAGEMENT_WEB_UI_DIR/ManagementWebUI-nginx.conf
 
-sed -i "s|# __EASY_MAIL_INCLUDE_22222__|include $MANAGEMENT_WEB_UI_DIR/ManagementWebUI-nginx.conf;|g" /etc/nginx/sites-enabled/roundcube
+sed -i "s|# __EASY_MAIL_INCLUDE_2__|include $MANAGEMENT_WEB_UI_DIR/ManagementWebUI-nginx.conf;|g" /etc/nginx/sites-enabled/roundcube
  	
 service nginx reload
  
