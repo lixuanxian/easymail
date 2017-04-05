@@ -26,6 +26,7 @@ server {
 	client_max_body_size 16M;
 	
 	# __EASY_MAIL_INCLUDE__
+	# __EASY_MAIL_INCLUDE_2__
 
 	root /usr/share/nginx/roundcubemail;
 	index index.php index.html index.htm;
