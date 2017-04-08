@@ -3,7 +3,7 @@ export MANAGEMENT_WEB_UI_DIR=$EASY_MAIL_DIR/ManagementWebUI
 mkdir $MANAGEMENT_WEB_UI_DIR && cd $MANAGEMENT_WEB_UI_DIR
 
 
-wget https://github.com/runeasymail/ManagementWebUI/releases/download/1/ManagementWebUI.tar.gz
+wget https://github.com/runeasymail/ManagementWebUI/releases/download/v0.1/ManagementWebUI.tar.gz
 tar -xvf ManagementWebUI.tar.gz
 rm ManagementWebUI.tar.gz
 
