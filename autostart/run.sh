@@ -1,4 +1,4 @@
-service mysql start
+#service mysql start
 service nginx start
 service php7.0-fpm start
 service postfix start

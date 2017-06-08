@@ -46,7 +46,7 @@ export ROOT_MYSQL_USERNAME='root'
 export ROOT_MYSQL_PASSWORD=$(get_rand_password)
 
 export MYSQL_DATABASE='mailserver'
-export MYSQL_HOSTNAME='127.0.0.1'
+export MYSQL_HOSTNAME='localhost'
 export MYSQL_USERNAME='mailuser'
 export MYSQL_PASSWORD=$(get_rand_password)
 
@@ -62,7 +62,7 @@ export MANAGEMENT_API_SECRETKEY=$(get_rand_password)
 export EASY_MAIL_DIR="/opt/easymail" && mkdir $EASY_MAIL_DIR
 
 # Install
-bash $CURRENT_DIR/mysql/install.sh
+# bash $CURRENT_DIR/mysql/install.sh
 bash $CURRENT_DIR/postfix/install.sh
 bash $CURRENT_DIR/dovecot/install.sh
 bash $CURRENT_DIR/nginx/install.sh
